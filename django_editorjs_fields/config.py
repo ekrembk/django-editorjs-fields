@@ -60,7 +60,7 @@ PLUGINS = getattr(
         '@editorjs/warning@1.4.0',
         '@editorjs/marker@1.4.0',
         '@editorjs/table@2.3.0',
-        '@editorjs/link@2.6.2',
+        #'@editorjs/link@2.6.2',
     )
 )
 
@@ -94,13 +94,13 @@ CONFIG_TOOLS = getattr(
         'Embed': {'class': 'Embed'},
         'Delimiter': {'class': 'Delimiter'},
         'Warning': {'class': 'Warning', 'inlineToolbar': True},
-        'LinkTool': {
-            'class': 'LinkTool',
-            'config': {
-                # Backend endpoint for url data fetching
-                'endpoint': reverse_lazy('editorjs_linktool'),
-            }
-        },
+        #'LinkTool': {
+        #    'class': 'LinkTool',
+        #    'config': {
+        #        # Backend endpoint for url data fetching
+        #        'endpoint': reverse_lazy('editorjs_linktool'),
+        #    }
+        #},
         'Marker': {'class': 'Marker', 'inlineToolbar': True},
         'Table': {'class': 'Table', 'inlineToolbar': True},
     }
@@ -118,7 +118,7 @@ PLUGINS_KEYS = {
     '@editorjs/embed': 'Embed',
     '@editorjs/delimiter': 'Delimiter',
     '@editorjs/warning': 'Warning',
-    '@editorjs/link': 'LinkTool',
+    #'@editorjs/link': 'LinkTool',
     '@editorjs/marker': 'Marker',
     '@editorjs/table': 'Table',
 }
