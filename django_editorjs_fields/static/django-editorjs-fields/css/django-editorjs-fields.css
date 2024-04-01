@@ -153,7 +153,7 @@ div[data-editorjs-holder] {
 		color: #fbfbfb;
 	}
 
-	.change-form #container #content-main .ce-popover-item:hover,
+	.change-form #container #content-main .ce-popover-item:not(.ce-popover-item--no-focus):hover,
 	.change-form #container #content-main .ce-settings__button:hover,
 	.change-form #container #content-main .cdx-settings-button:hover,
 	.change-form #container #content-main .ce-inline-toolbar__dropdown:hover,
@@ -163,7 +163,7 @@ div[data-editorjs-holder] {
 		color: #fff;
 	}
 
-	.change-form #container #content-main .ce-popover-item:hover .ce-popover-item__icon {
+	.change-form #container #content-main .ce-popover-item:not(.ce-popover-item--no-focus):hover .ce-popover-item__icon {
 		color: black;
 	}
 }
