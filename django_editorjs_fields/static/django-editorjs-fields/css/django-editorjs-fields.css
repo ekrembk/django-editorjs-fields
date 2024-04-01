@@ -119,26 +119,27 @@ div[data-editorjs-holder] {
 		color: #000;
 	}
 
-	.change-form #container #content-main ::-moz-selection,
-	.change-form #container #content-main ::selection {
-		color: #fff;
-		background: #616161;
-	}
-
 	.change-form #container #content-main .ce-block--selected .ce-block__content {
 		background: #426b8a;
 	}
 
 	.change-form #container #content-main .codex-editor svg {
-		fill: #fff
+		fill: #fff;
+	}
+
+	.change-form #container #content-main .ce-toolbar__plus,
+	.change-form #container #content-main .ce-toolbar__settings-btn {
+		background-color: #264b5d;
+		color: white;
+		opacity: 0.5;
 	}
 
 	.change-form #container #content-main .ce-toolbar__plus:hover,
 	.change-form #container #content-main .ce-toolbar__settings-btn:hover {
-		background-color: #264b5d;
+		opacity: 1;
 	}
 
-	.change-form #container #content-main .ce-popover__item-icon,
+	.change-form #container #content-main .ce-popover-item-icon,
 	.change-form #container #content-main .ce-conversion-tool__icon {
 		background: #2fa9a9;
 	}
@@ -149,16 +150,16 @@ div[data-editorjs-holder] {
 	.change-form #container #content-main .ce-conversion-toolbar {
 		background-color: #264b5d;
 		border-color: #4c6b7a;
-		color: #fbfbfb
+		color: #fbfbfb;
 	}
 
-	.change-form #container #content-main .ce-popover__item:hover,
+	.change-form #container #content-main .ce-popover-item:hover,
 	.change-form #container #content-main .ce-settings__button:hover,
 	.change-form #container #content-main .cdx-settings-button:hover,
 	.change-form #container #content-main .ce-inline-toolbar__dropdown:hover,
 	.change-form #container #content-main .ce-inline-tool:hover,
 	.change-form #container #content-main .ce-conversion-tool:hover {
 		background-color: #162a34;
-		color: #fff
+		color: #fff;
 	}
 }
