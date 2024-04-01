@@ -5,7 +5,7 @@ from django.urls import reverse_lazy
 
 DEBUG = getattr(settings, "DEBUG", False)
 
-VERSION = getattr(settings, "EDITORJS_VERSION", '2.25.0')
+VERSION = getattr(settings, "EDITORJS_VERSION", '2.29.1')
 
 # ATTACHMENT_REQUIRE_AUTHENTICATION = str(
 #     getattr(settings, "EDITORJS_ATTACHMENT_REQUIRE_AUTHENTICATION", True)
@@ -46,21 +46,21 @@ IMAGE_NAME = getattr(
 
 PLUGINS = getattr(
     settings, "EDITORJS_DEFAULT_PLUGINS", (
-        '@editorjs/paragraph',
-        '@editorjs/image',
-        '@editorjs/header',
-        '@editorjs/list',
-        '@editorjs/checklist',
-        '@editorjs/quote',
-        '@editorjs/raw',
-        '@editorjs/code',
-        '@editorjs/inline-code',
-        '@editorjs/embed',
-        '@editorjs/delimiter',
-        '@editorjs/warning',
-        '@editorjs/link',
-        '@editorjs/marker',
-        '@editorjs/table',
+        '@editorjs/paragraph@2.11.4',
+        '@editorjs/image@2.9.0',
+        '@editorjs/header@2.8.1',
+        '@editorjs/list@1.9.0',
+        '@editorjs/checklist@1.6.0',
+        '@editorjs/quote@2.6.0',
+        '@editorjs/raw@2.5.0',
+        '@editorjs/code@2.9.0',
+        '@editorjs/inline-code@1.5.0',
+        '@editorjs/embed@2.7.0',
+        '@editorjs/delimiter@1.4.0',
+        '@editorjs/warning@1.4.0',
+        '@editorjs/marker@1.4.0',
+        '@editorjs/table@2.3.0',
+        '@editorjs/link@2.6.2',
     )
 )
 
